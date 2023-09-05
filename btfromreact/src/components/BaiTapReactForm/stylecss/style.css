@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    position: relative;
+}
+
+.fixTableHead {
+    height: 300px;
+    overflow-y: auto;
+}
+
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
