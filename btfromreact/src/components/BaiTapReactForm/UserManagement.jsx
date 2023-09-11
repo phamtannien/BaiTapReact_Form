@@ -13,7 +13,7 @@ class UserManagement extends Component {
 
     renderContent = () => {
         const data = this.props.userList.filter(element => {
-            return element.hoTen.toLowerCase().indexOf(this.state.keyword.toLocaleLowerCase()) !== -1;
+            return element.hoTen && element.hoTen.toLowerCase().indexOf(this.state.keyword.toLocaleLowerCase()) !== -1;
         });
 
 
